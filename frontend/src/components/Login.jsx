@@ -139,7 +139,7 @@ const Login = () => {
                     {/* Email Field */}
                     <div>
                       <label className="block text-gray-800 text-sm font-semibold mb-2">
-                        Email Address
+                        Username
                       </label>
                       <div className="relative">
                         <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -148,13 +148,13 @@ const Login = () => {
                           </svg>
                         </div>
                         <input
-                          type="email"
+                          type="text"
                           name="username"
                           value={username}
                           onChange={onChange}
                           required
                           className="w-full pl-10 pr-4 py-3 bg-white/60 backdrop-blur-sm border border-white/50 rounded-lg text-gray-800 placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-400 transition-all duration-200 shadow-sm"
-                          placeholder="doe@gmail.com"
+                          placeholder="Enter username"
                         />
                       </div>
                     </div>
